@@ -14,15 +14,15 @@ func main(){
 }
 
 func interception(x, y []int) ([]int){
-	sort.Ints(x)
+	sort.Ints(x) //сорт для searchint
 	sort.Ints(y)
 
-	if len(x) == 0 || len(y) == 0{
+	if len(x) == 0 || len(y) == 0{ //условие нулевого массива
 		return res
 	}
-	var i, j int
+	var i, j int //перменные для цикла
 	for {
-		if x[i] == y[j]{
+		if x[i] == y[j]{ //пуш в пустой массив res
 			res = append(res, x[i])
 		}
 		if j ++; j >= len(y){
