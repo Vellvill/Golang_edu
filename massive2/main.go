@@ -3,8 +3,8 @@ package main
 import "fmt"
 
 func main(){
-	x:=[]int{1,2,3,7,4,4,4,4,5}
-	y:=[]int{4,5,6}
+	x:=[]int{1,2,3,7,4,4,4,4,5,1,3}
+	y:=[]int{4,5,6,7,4,5,63,1}
 	fmt.Println(Interception(x,y))
 }
 
